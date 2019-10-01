@@ -6,7 +6,7 @@ function clear(form) {
 
 function validatedForm(form) {
     debugger;
-    console
+    console;
     if (!form.A.value || !form.B.value) {
         alert("Du skal udfylde et tal!");
         return false;

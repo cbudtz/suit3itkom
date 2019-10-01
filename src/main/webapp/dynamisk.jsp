@@ -11,7 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-Hej Angelo. Klokken er <% out.println(new Date()); %>
+Hej Angelo. Klokken er <% out. println("" + new Date()); %>
+<% out.println(); %>
+<% out.println(); %>
+
 
 </body>
 </html>
